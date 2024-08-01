@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container
+        {
+            background-color:bisque;
+            display:grid;
+            padding:10px;
+            grid-template-columns: repeat(3,50px);
+            grid-template-rows:repeat(3,50px);
+           
+        }
+        #container > div{
+            padding:20px;
+        }
+        #container > div:nth-child(1){
+            background-color: aqua;
+        }
+        #container > div:nth-child(2)
+        {
+            background-color: greenyellow;
+        }
+        #container > div:nth-child(3)
+        {
+            background-color: crimson;
+            color: antiquewhite;
+        }
+        #container > div:nth-child(4)
+        {
+            background-color: lightsalmon;
+        }
+        #container > div:nth-child(5)
+        {
+            background-color: rgb(195, 53, 131);
+        }
+        #container > div:nth-child(6)
+        {
+            background-color: rgb(4, 24, 14);
+            color:azure;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>
